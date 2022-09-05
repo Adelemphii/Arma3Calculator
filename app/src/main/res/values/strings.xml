@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Arma 3 Calculator</string>
+    <string name="name">Name</string>
+    <string name="button">Button</string>
+    <string name="edit_message">Enter a message</string>
+    <string name="button_send">Send</string>
+    <string name="artillery_calculator">Artillery Calculator</string>
+    <string name="advanced">Advanced</string>
+    <string name="distance_meters">Distance (Meters)</string>
+    <string name="tba">TBA</string>
+    <string name="mk6_mortar">Mk6 Mortar</string>
+    <string name="height_difference_in_meters">Height Difference (in meters)</string>
+    <string name="result">Result</string>
+    <string name="range_error">Inputted range is not a valid number. It must be between 150 and 2600 </string>
+    <string name="height_diff_error">Inputted height difference is not a valid number. It can be 0.</string>
+    <string name="range_result">Inputted Range: %1$s</string>
+    <string name="elevation_result">Calculated Elevation: %1$s</string>
+    <string name="charge_result">Charge: %1$s</string>
+    <string name="flight_time_result">Flight Time (Approx.): %1$s</string>
+    <string name="elevation_calculation_result">Elevation After Height Calculation: %1$s</string>
+    <string name="elevation_diff_result">Elevation Difference: %1$s</string>
+</resources>
