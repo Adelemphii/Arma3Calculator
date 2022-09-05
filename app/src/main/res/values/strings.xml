@@ -19,4 +19,6 @@
     <string name="flight_time_result">Flight Time (Approx.): %1$s</string>
     <string name="elevation_calculation_result">Elevation After Height Calculation: %1$s</string>
     <string name="elevation_diff_result">Elevation Difference: %1$s</string>
+    <string name="unsupported">This feature is not supported in this version.</string>
+    <string name="textview">TextView</string>
 </resources>

@@ -7,6 +7,7 @@ import android.widget.TextView;
 
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.SwitchCompat;
 
 import com.google.android.material.snackbar.Snackbar;
 
@@ -21,13 +22,22 @@ public class ArtilleryComputerActivity extends AppCompatActivity implements View
         setContentView(R.layout.activity_artillery_computer);
 
         findViewById(R.id.calculateButton).setOnClickListener(this);
+        findViewById(R.id.advancedSwitch).setOnClickListener(this);
     }
 
     @Override
     public void onClick(View view) {
         if(view.getId() == R.id.calculateButton) {
-            System.out.println();
             calculate(view);
+        }
+
+        if(view.getId() == R.id.advancedSwitch) {
+            Snackbar.make(view, R.string.unsupported, 5000)
+                    .setBackgroundTint(getResources().getColor(R.color.black))
+                    .setTextColor(getResources().getColor(R.color.white))
+                    .show();
+            SwitchCompat switchCompat = findViewById(R.id.advancedSwitch);
+            switchCompat.setChecked(false);
         }
     }
 
